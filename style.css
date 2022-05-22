@@ -61,3 +61,25 @@ input {
     font-weight: 700;
     font-size: 1.1rem;
 }
+@media only screen and (min-width:768px) {
+    input {
+        font-size: 1.5rem;
+    }
+    label {
+        font-size: 1.3rem;
+    }
+    #result {
+        font-size: 1.5rem;
+    }
+    #status {
+        font-size: 1.3rem;
+    }
+    .about_para {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .wrapper {
+        width:  85%;
+    }
+}
