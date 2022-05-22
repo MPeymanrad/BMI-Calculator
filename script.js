@@ -4,12 +4,10 @@ const heightInput = $.getElementById("height");
 const resultPara = $.getElementById("result");
 const statusPara = $.getElementById("status");
 
-const statusColors = {
-  underWeight: "#FFC300",
-  normal: "#9EDE73",
-  overWeight: "#FF5403",
-  obese: "#F90716",
-};
+const UNDERWEIGHT_COLOR = "#FFC300"
+const NORMAL_COLOR = "#9EDE73"
+const OVERWEIGHT_COLOR = "#FF5403"
+const OBESE_COLOR = "#F90716"
 
 let BMINUmber;
 function calculateBMI() {
@@ -27,16 +25,16 @@ setStatus()
 }
 function setStatus() {
     if (BMINUmber < 18.5) {
-        statusPara.style.color = statusColors.underWeight
+        statusPara.style.color = UNDERWEIGHT_COLOR
         statusPara.textContent = 'UnderWeight'
     } else if (30 <= BMINUmber) {
-        statusPara.style.color = statusColors.obese
+        statusPara.style.color = OBESE_COLOR
         statusPara.textContent = 'Obese'
     } else if (25 <=BMINUmber && BMINUmber <=29.9) {
-        statusPara.style.color = statusColors.overWeight
+        statusPara.style.color = OVERWEIGHT_COLOR
         statusPara.textContent = 'OverWeight'
     } else if ( 18.5 <=BMINUmber && BMINUmber <=24.9) {
-        statusPara.style.color = statusColors.normal
+        statusPara.style.color = NORMAL_COLOR
         statusPara.textContent = 'Normal'
     }
 }
