@@ -42,3 +42,14 @@ input {
     margin: 12px 0;
     font-size: 1.2rem;
 }
+.about_para {
+    position: absolute;
+    top: 95%;
+    left: 5%;
+}
+.about {
+    color: #184D47;
+}
+.about:hover {
+    text-decoration: none;
+}
