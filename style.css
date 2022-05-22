@@ -26,4 +26,19 @@ body,input,button {
     margin-top: 5vh;
     padding: .5rem;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    font-weight: 700;
+}
+input {
+    width: 80%;
+    border: 1px solid #d3d3d3;
+    outline: none;
+    border-radius: 8px;
+    padding: 9px 12px;
+    margin: 12px 0;
+    font-size: 1.2rem;
 }
