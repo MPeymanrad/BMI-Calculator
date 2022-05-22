@@ -53,3 +53,11 @@ input {
 .about:hover {
     text-decoration: none;
 }
+#result {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+#status {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
