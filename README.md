@@ -5,4 +5,5 @@ and according to calculated BMI shows one of these statuses:
 - normal
 - overweight
 - obese
+
 You can see this app live via this link: https://sunny-palmier-95492d.netlify.app/
