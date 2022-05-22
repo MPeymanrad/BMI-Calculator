@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: open-sans;
+    src: url(res/OpenSans.ttf);
+}
+body,input,button {
+    font-family: open-sans,sans-serif;
+}
